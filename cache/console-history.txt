@@ -1,0 +1,4 @@
+.exit
+exit
+process.env.SNOWTRACE_API_KEY
+process.env.PRIVATE_KEY

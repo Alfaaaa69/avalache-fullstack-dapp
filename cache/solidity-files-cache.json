@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\avalanche-wallet-dapp\\contract\\apps\\contracts\\SimpleStorage.sol": {
+      "lastModificationDate": 1768307978391,
+      "contentHash": "c0c8839fbe407aa2fc960550ee83e8d5",
+      "sourceName": "contracts/SimpleStorage.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "shanghai",
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "SimpleStorage"
+      ]
+    }
+  }
+}
