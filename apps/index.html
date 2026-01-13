@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avalanche Wallet dApp</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main class="wallet-app">
+      <!-- WALLET HEADER -->
+      <header class="wallet-header">
+        <div class="logo">
+            <img src="https://assets-global.website-files.com/5e73a1e3ba24f2cd5dd2232a/623377bd74e2cafdaaab0b56_avax.png" alt="Avalanche Logo" />
+        </div>
+        <div>
+          <h1>Avalanche Wallet</h1>
+          <p class="subtitle">Core Wallet Connection</p>
+        </div>
+      </header>
+
+      <!-- WALLET STATUS -->
+      <section class="wallet-status">
+        <span class="status-dot"></span>
+        <span id="status">Not Connected</span>
+      </section>
+
+      <!-- ACTION BUTTONS -->
+      <section class="wallet-actions">
+        <button id="connectBtn" class="btn connect">
+          Connect Wallet
+        </button>
+
+        <button
+          id="disconnectBtn"
+          class="btn disconnect"
+          style="display: none;"
+        >
+          Disconnect
+        </button>
+      </section>
+
+      <!-- WALLET INFO -->
+      <section class="wallet-card">
+        <div class="info-row">
+          <span class="label">Address</span>
+          <span id="address" class="value">-</span>
+        </div>
+
+        <div class="info-row">
+          <span class="label">Network</span>
+          <span id="network" class="value">-</span>
+        </div>
+
+        <div class="info-row">
+          <span class="label">Balance</span>
+          <span class="value"><span id="balance">-</span> AVAX</span>
+        </div>
+
+        <div class="owner"  id="ownerInfo" style="display: none;">
+  <span class="owner-name">Nama: Muhammad Alfarezi</span>
+  <span class="owner-nim">NIM: 241011401682</span>
+</div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

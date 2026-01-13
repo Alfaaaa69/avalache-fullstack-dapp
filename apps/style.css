@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+/* APP WRAPPER */
+.wallet-app {
+  width: 100%;
+  max-width: 380px;
+  padding: 24px;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.45);
+}
+
+/* HEADER */
+.wallet-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 46px;
+  height: 46px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #e84118, #ff6b6b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+
+.wallet-header h1 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 12px;
+  color: #dcdde1;
+}
+
+/* STATUS */
+.wallet-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(0, 0, 0, 0.25);
+  padding: 10px 14px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #e84118;
+}
+
+/* BUTTONS */
+.wallet-actions {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  flex: 1;
+  padding: 12px 0;
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.25s ease;
+}
+
+.btn.connect {
+  background: linear-gradient(135deg, #e84118, #ff6b6b);
+  color: #fff;
+}
+
+.btn.connect:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(232, 65, 24, 0.5);
+}
+
+.btn.disconnect {
+  background: rgba(173, 143, 143, 0.15);
+  color: #fff;
+}
+
+.btn.disconnect:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+/* WALLET CARD */
+.wallet-card {
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.info-row:last-child {
+  border-bottom: none;
+}
+
+.label {
+  font-size: 12px;
+  color: #cfd3da;
+}
+
+.value {
+  font-size: 12px;
+  font-weight: 600;
+  text-align: right;
+  max-width: 65%;
+  word-break: break-all;
+}
+
+.logo {
+  width: 46px;
+  height: 46px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #e2b3b3, #ff6b6b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 34px;
+  height: 34px;
+}
+
+.owner {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px dashed rgba(255, 255, 255, 0.15);
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: #cfd3da;
+}
+
+.owner-name {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.owner-nim {
+  font-style: italic;
+  opacity: 0.85;
+}
