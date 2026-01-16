@@ -5,9 +5,11 @@ import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
+
+
    const config = new DocumentBuilder()
-    .setTitle('Simple Storage dApp API')
-    .setDescription('Simple Storage dAPP API documentation')
+    .setTitle('Muhammad Alfarezi')
+    .setDescription('NIM: 241011401682')
     .setVersion('1.0')
     .addTag('Simple Storage')
     .build();
